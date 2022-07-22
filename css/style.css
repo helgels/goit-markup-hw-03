@@ -52,6 +52,8 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+    align-items: center;
+    border-bottom: 1px solid #ececec;
 }
 .header-nav,
 .header-list,
@@ -297,10 +299,7 @@ body {
   margin-bottom: 9px;
 }
 /* portfolio main */
-.portfolio-header {
-  align-items: center;
-  border-bottom: 1px solid #ececec;
-}
+
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
