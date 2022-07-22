@@ -5,7 +5,13 @@
   --accent-color: #2196f3;
   --card-set-gap: 30px;
 }
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 ul {
@@ -46,15 +52,17 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  }
-.header-nav, .header-list, .header-contacts {
+}
+.header-nav,
+.header-list,
+.header-contacts {
   display: flex;
   align-items: center;
 }
 .header-list {
   gap: 50px;
 }
-.header>.container {
+.header > .container {
   display: flex;
   align-items: center;
 }
@@ -63,7 +71,6 @@ body {
   display: flex;
   align-items: center;
   gap: 50px;
-
 }
 .web {
   font-family: Raleway, sans-serif;
@@ -151,7 +158,6 @@ body {
 }
 
 .hero-btn:hover,
-
 .hero-btn:focus {
   background-color: #188ce8;
 }
@@ -218,15 +224,15 @@ body {
   display: block;
 }
 .team-box {
-text-align: center;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   height: 108px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-top: 0;
-
 }
 .team-name {
   font-weight: 500;
@@ -293,7 +299,7 @@ text-align: center;
 /* portfolio main */
 .portfolio-header {
   align-items: center;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 .portfolio {
   padding-top: 94px;
@@ -301,8 +307,8 @@ text-align: center;
 }
 
 .portfolio-list {
-display: flex;
-gap: 8px;
+  display: flex;
+  gap: 8px;
   margin-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
@@ -316,7 +322,7 @@ gap: 8px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   cursor: pointer;
   border-radius: 4px;
   border-color: transparent;
@@ -344,9 +350,9 @@ gap: 8px;
   margin-bottom: 0;
 }
 .work-box {
-padding: 20px 24px;
-height: 110px;
-border: 1px solid #EEEEEE;
+  padding: 20px 24px;
+  height: 110px;
+  border: 1px solid #eeeeee;
 }
 .work-title {
   font-weight: 700;
